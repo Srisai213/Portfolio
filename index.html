@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+        <img id="image" src="./assets/profile-pic.jpg" alt="">
+
+        <div id="nav-bar">
+            <a href="#"><h1 id="nav-name">Srisai.</h1></a>
+            <ul id="nav-rightbar">
+                <li><a class="nav-links" href="#">Home</a></li>
+                <li><a class="nav-links" href="#">About</a></li>
+                <li><a class="nav-links" href="#">Services</a></li>
+                <li><a class="nav-links" href="#">Portfolio</a></li>
+                <li><a class="nav-links" href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <div id="header-text">
+            <p id="para1">Front End Developer</p><br>
+            <h1 id="header1">Hi, I'm <span style="color: #ff004f;">Srisai Marka </span><br> From Hyderabad, India</h1>
+        </div>
+    </div>
+    <!-- -------------About me------------ -->
+    <div>
+        <img id="image1" src="./assets/profile-pic.jpg" alt="">
+        <div id="about">
+            <h1 id="header2">About me</h1><br>
+            <p id="para2">Hi there! I'm srisai, a recent graduate with a Bachelor's degree in Computer Science passionate about <br> web development and eager to kick start my career in the tech industry. During my academic journey, <br> I developed a solid foundation in front-end development technologies such as HTML, CSS, <br> and JavaScript, as well as back-end fundamentals using languages like Java and SQL.</p>
+        </div>
+
+        <ul id="tab-links">
+            <li><a class="about-links active-link" onclick="opentab('skills')" href="#">Skills</a></li>
+            <li><a class="about-links" onclick="opentab('experience')"  href="#">Experience</a></li>
+            <li><a class="about-links" onclick="opentab('education')"  href="#">Education</a></li>
+        </ul>
+
+    <div class="tab-contents active-tab" id=skills>
+        <ul>
+            <li><span>UI Web Technologies : </span><br>JavaScript,JSON,CSS3.</li>
+            <li><span>Frameworks : </span><br>Bootstrap</li>
+            <li><span>Scripting Language : </span><br>HTML5,XHTML,XML,JavaScript.</li>
+            <li><span>IDE Used : </span> <br> Visual Studio Code, Notepad++</li>
+            <li><span>Version Control System :</span> <br> GitHub</li>
+            <li><span>Utilities and Tools Used :</span> <br> Eclipse,Postman</li>
+            <li><span>Environments : </span> <br> Windows</li>
+        </ul>
+    </div>
+    <div class="tab-contents" id="experience">
+        <ol id="projects">
+            <li>AIRBNB</li>
+            <li>APPLE</li>
+            <li>FACEBOOK</li>
+            <li>FROZEN YOGURT</li>
+            <li>GODADDY</li>
+            <li>KNIGHT BITE</li>
+            <li>NETFLIX</li>
+            <li>QURIOUS</li>
+            <li>RAPIDO</li>
+            <li>SCOOT</li>
+            <li>SPACEX</li>
+            <li>TEXTNOW</li>
+            <li>THE MINIMALISTS</li>
+            <li>ZOHO</li>
+            <li>BE YOUNG</li>
+        </ol>
+        
+    </div>
+
+    <div class="tab-contents" id="education">
+        <p id="education">I completed my graduation in BSC MPCS in 2022 with 81% from University Arts and Science <br> Autonomous Degree College, Warangal, Telangana. I completed my Intermediate <br> education in MPC In 2019 with 95% from Sri Vikas Junior College, Warangal, <br> Telangana.I completed my matriculation in 2017 with 90% from SriNethaji <br> High School, Bhupalpally, Telangana</p>
+    </div>
+
+    </div>
+
+    <!-- -----------------Services------------------ -->
+
+        <h1 id="header3">My Services</h1>
+    <div id="services-section">
+    <div class="services">
+        <a href=""></a>
+        <a href=""><i class="fa-solid fa-code fa-2x"></i></a>
+        <h2>Web Design</h2>
+        <p>I prioritize usability and accessibility in all my <br> designs, ensuring intuitive navigation and <br> inclusive experiences for all users. i believe <br> in the power of visual hierachy to guide <br> user attention effectively.</p><br>
+        <a href="#">Lear More</a>
+    </div>
+    <div class="services">
+        <a href=""><i class="fa-solid fa-crop-simple fa-2x"></i></a>
+        <h2>UI/UX Design</h2>
+        <p>I prioritize usability and accessibility in all my <br> designs, ensuring intuitive navigation and <br> inclusive experiences for all users. i believe <br> in the power of visual hierachy to guide <br> user attention effectively.</p><br>
+        <a href="#">Lear More</a>
+    </div>
+    <div class="services">
+        <a href=""><i class="fa-brands fa-app-store fa-2x"></i></a>
+        <h2>App Design</h2>
+        <p>I prioritize usability and accessibility in all my <br> designs, ensuring intuitive navigation and <br> inclusive experiences for all users. i believe <br> in the power of visual hierachy to guide <br> user attention effectively.</p><br>
+        <a href="#">Lear More</a>
+    </div>
+    </div>
+    <!-- -----------------Portfolio------------------ -->
+        <h1 id="header4">My Work</h1>
+    
+   <div id="project-section">
+
+    <div id="project-section1">
+        <img id="project-img1" src="./assets/airbnb.jpg" alt="">
+    <div class="layer2">
+        <h3>airbnb website</h3>
+        <p>"Airbnb: Where travelers find unique stays and hosts earn <br> extra income."</p>
+        <a class="nav-icon" href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    </div>
+    </div>
+
+    <div>
+
+    <div id="project-section2">
+        <img id="project-img2" src="./assets/apple-iphone.webp" alt="">
+    <div class="layer1">
+        <h3>iPhone website</h3>
+        <p>"Explore the sleek innovation of Apple's iPhone on <br> their official website."</p>
+        <a class="nav-icon" href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    </div>
+    </div>
+
+    </div>
+
+    <div>
+
+    <div id="project-section3">
+        <img id="project-img3" src="./assets/godaddy.jpg" alt="">
+    <div class="layer">
+        <h3>GoDaddy website</h3>
+        <p>"DoDaddy: Where your online prescence finds a home"</p>
+        <a class="nav-icon" href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    </div>
+    </div>
+
+    </div>
+
+   </div>
+
+   <a id="btn"  href="">See More</a>
+
+   <!-- -----------------Contact------------------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p class="para3"> <i class="fa-solid fa-paper-plane message-icon"></i>&nbsp;&nbsp; srisaimarka668@gmail.com</p>
+                    <p class="para3"> <i class="fa-solid fa-square-phone phone-icon"></i>&nbsp;&nbsp; 6305269166</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a id="resume-btn" href="./assets/SRISAI RESUME.pdf" download="">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input class="inpt" type="text" name="Name" id="" placeholder="Srisai Marka"><br>
+                        <input class="inpt" type="email" name="email" id="" placeholder="srisaimarka668@gmail.com"><br>
+                        <textarea class="inpt1" name="Message" rows="6" placeholder="Frontend Developer"></textarea><br>
+                        <button id="btn2" type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div>
+            <p id="Copyright">Copyright © Srisai <i style="color: #ff004f;" class="fa-solid fa-heart"></i>. Made with by HTML, CSS, JAVASCRIPT.</p>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
